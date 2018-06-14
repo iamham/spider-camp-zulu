@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPIDER Camp Zulu</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        video {
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            font-family: 'Prompt',sans-serif;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex;
+        }
+        .left {
+            font-size: 24px;
+            height: 100%;
+            width: 400px;
+            background-blend-mode: multiply, multiply;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+            color: #f6f6f8;
+        }
+        .left-header {
+            padding-top: 80px;
+            font-size: 36px;
+            text-align: center;
+        }
+        .left-header-logo {
+            margin: auto;
+            width: 160px;
+            height: 66px;
+            background: url("logo.png")
+        }
+        .left-menu {
+            width: 215px;
+            margin: 30px auto;
+            text-align: right;
+        }
+        .right {
+            width: 100%;
+            height: 100%;
+            overflow-y: visible;
+            overflow-x: hidden;
+        }
+        .right-container {
+            width: 100%;
+            height: 100%;
+        }
+        .right-blank {
+            height: 80%;
+        }
+        .right-content {
+            background: white;
+            width: 100%;
+            height: 1000px;
+            padding: 50px;
+            box-sizing: border-box;
+            background: rgb(252,252,252);
+            background: linear-gradient(180deg, rgba(252,252,252,0) 0%, rgba(253,253,253,0.8) 25%, rgba(255,255,255,1) 100%);
+            background-blend-mode: multiply, multiply;
+            font-size: 18px;
+        }
+        .right-content-title {
+            font-size: 36px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+</head>
+<body>
+<video playsinline autoplay muted loop poster="bgp.jpg" id="bgvid">
+    <source src="bg.mp4" type="video/mp4">
+</video>
+<div class="container">
+    <div class="left">
+        <div class="left-header">
+            <div class="left-header-logo"></div>
+            <div class="left-header-title">
+                SPIDER ZULU
+            </div>
+        </div>
+        <div class="left-menu">
+            <ul>
+                <li>Home</li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right-container">
+            <div class="right-blank"></div>
+            <div class="right-content">
+                <div class="right-content-title">SPIDER Camp</div>
+                    ตลอดเวลา 3 วัน 2 คืน ผู้เข้าร่วมจะได้พบกับเวิร์คช็อปเกี่ยวกับกระบวนการทำงานในการสร้างสรรค์ผลงานซอฟต์แวร์ตั้งแต่เริ่มต้นระดมความคิด จนกระทั่งปล่อยผลงานสู่โลกภายนอก รวมไปถึงการรับมือในสถานการณ์ต่างๆ และคำแนะนำอีกมากมายจากมืออาชีพในวงการ
+
+                    หลังจากที่พบกับเวิร์คช็อปแล้ว แต่ละทีมจะร่วมกันสร้างสรรค์ซอฟต์แวร์เพื่อตอบโจทย์ปัญหาที่กำหนดไว้ โดยมีเวลา 24 ชั่วโมง ในการเตรียมตัวสำหรับการนำเสนอให้คณะกรรมการได้เข้าใจและเห็นภาพไอเดียในการแก้ปัญหา โดยแต่ละทีมจะมี Mentor ที่มีความเชี่ยวชาญเฉพาะตัว ดูแลและให้คำแนะนำอย่างใกล้ชิด
+                    
+                    เมื่อเวลา 24 ชั่วโมงจบลง เป็นเวลาของแต่ละทีมเพื่อนำเสนอผลงาน ที่จะต้องทำให้คณะกรรมการประทับใจกับผลงานและตอบโจทย์ปัญหาข้างต้นได้มากที่สุด เพื่อชิงรางวัลชนะเลิศ
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
